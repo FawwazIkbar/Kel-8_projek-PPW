@@ -18,9 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-<script>
-    window.print();
-</script>
+
 </head>
 <body>
    <h2>BUKTI PENDAFTARAN</h2>
@@ -60,6 +58,10 @@
         <td>:</td>
         <td><?php echo $p->almt_peserta ?></td>
     </tr>
+       
+     <tr>
+            <th><input type="button" style="background: white" onclick="window.print()" value="CETAK"></th>
+        </tr>
    </table>
 </body>
 </html>
