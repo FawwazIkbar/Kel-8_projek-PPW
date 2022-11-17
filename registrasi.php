@@ -58,7 +58,7 @@
                     <td>Tahun Ajaran</td>
                     <td>:</td>
                     <td>
-                        <input type="text" name="th_ajaran" class="input-control" value="2020/2021" readonly>
+                        <input type="text" name="th_ajaran" class="input-control" value="2021/2022" readonly>
                     </td>
                 </tr>
                 <tr>
