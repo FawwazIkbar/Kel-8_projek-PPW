@@ -1,0 +1,66 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Quicksand", sans-serif;
+}
+body {
+  background-image: url(../bg.jpg);
+  background-size: cover;
+  background-color: rgb(214, 206, 206);
+}
+
+h2{
+  font-size:14px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  margin-top: 70px;
+  margin-bottom:20px;
+}
+
+.box {
+  border: 0px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px 0 25px;
+}
+
+.main-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-control {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.btn-login {
+  padding: 5px 20px;
+  background-color: #c93915;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+.btn-login:hover {
+  cursor: pointer;
+  background-color:#943535;
+}
+
+.btn-kembali {
+  padding: 5px 20px;
+  background-color: #697ae4;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+.btn-kembali:hover {
+  cursor: pointer;
+  background-color:#7beff3;
+}
+
+.main-login .box table tr td a {
+  text-decoration: none;
+}
