@@ -51,7 +51,7 @@
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td>:</td>b 
+                        <td>:</td>
                         <td>
                             <input type="password" name="password" class="input-control">
                         </td>
