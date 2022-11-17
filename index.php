@@ -17,17 +17,25 @@
 </head>
 <body>
     
-    <section>
+    <div class="container">
 
-    <h1 class="t-color"><CENTER>SELAMAT DATANG DI PSB ONLINE</CENTER></h1>
+        <img src="logoPSB.png" alt="logoPNB" width="180">
 
-        <div class="btn6">
-            <center>
-                <a href="registrasi.php">REGISTRASI</a> &nbsp;&nbsp;
-                <a href="login.php">LOGIN ADMIN</a>
-            </center>
-        </div>
-    </section>
+        <h1 class="t-color"><CENTER>SELAMAT DATANG DI PENERIMAAN SISWA BARU ONLINE</CENTER></h1>
+
+        <CENTER>
+        <ul>
+            <li class="menu">
+                <a href="registrasi.php" class="text">REGISTRASI</a>
+            </li>
+            <li class="menu">
+                <a href="login.php" class="text">LOGIN ADMIN</a>
+            </li>
+        </ul>
+        </CENTER>
+        
+
+    </div>
 
 </body>
 </html>
