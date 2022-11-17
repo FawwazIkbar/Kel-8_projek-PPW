@@ -51,7 +51,7 @@
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td>:</td>
+                        <td>:</td>b 
                         <td>
                             <input type="password" name="password" class="input-control">
                         </td>
@@ -60,7 +60,7 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <input type="submit" name="login" value="login" class="btn-login">&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="submit" name="login" value="Login" class="btn-login">&nbsp;&nbsp;&nbsp;&nbsp;
                             <a href="index.php" class="btn-kembali">Kembali</a>
                         </td>
                     </tr>
