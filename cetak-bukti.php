@@ -28,7 +28,7 @@
     </center>
     <table class="table-data" border="0">
         <tr>
-            <td> &nbsp; &nbsp; Kode Pendaftaran</td>
+            <td>Kode Pendaftaran</td>
             <td>:</td>
             <td><?php echo $p->id_pendaftaran ?></td>
         </tr>
