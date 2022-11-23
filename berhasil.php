@@ -20,7 +20,7 @@
     
     <section class ="box-formulir">
 
-    <h2>PENDAFTARAN BERHASIL!</h2>
+    <h2> &nbsp; PENDAFTARAN BERHASIL!</h2>
     <div class="box">
         <h4>Kode Pendaftaran anda adalah <?php echo $_GET['id'] ?></h4>
         <a href="cetak-bukti.php?id=<?php echo $_GET['id'] ?>" class="btn-cetak" target="_blank">Cetak Bukti Daftar</a>
