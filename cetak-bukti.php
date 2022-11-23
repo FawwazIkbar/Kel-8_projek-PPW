@@ -23,43 +23,45 @@
 </script>
 </head>
 <body>
-   <h2>BUKTI PENDAFTARAN</h2>
-   <table class="table-data" border="0">
-    <tr>
-        <td>Kode Pendaftaran</td>
-        <td>:</td>
-        <td><?php echo $p->id_pendaftaran ?></td>
-    </tr>
+   <center>
+    <h2> &nbsp; &nbsp; BUKTI PENDAFTARAN</h2>
+    </center>
+    <table class="table-data" border="0">
         <tr>
-        <td>Tahun Ajaran</td>
-        <td>:</td>
-        <td><?php echo $p->th_ajaran ?></td>
-    </tr>    <tr>
-        <td>Kode Pendaftaran</td>
-        <td>:</td>
-        <td><?php echo $p->jurusan ?></td>
-    </tr>    <tr>
-        <td>Nama Lengkap</td>
-        <td>:</td>
-        <td><?php echo $p->nm_peserta ?></td>
-    </tr>    <tr>
-        <td>Tempat, Tanggal Lahir</td>
-        <td>:</td>
-        <td><?php echo $p->tmp_lahir. ', '.$p->tgl_lahir ?></td>
-    </tr>    <tr>
-        <td>Jenis Kelamin</td>
-        <td>:</td>
-        <td><?php echo $p->jk ?></td>
-    </tr>
-    <tr>
-        <td>Agama</td>
-        <td>:</td>
-        <td><?php echo $p->agama ?></td>
-    </tr><tr>
-        <td>Alamat</td>
-        <td>:</td>
-        <td><?php echo $p->almt_peserta ?></td>
-    </tr>
-   </table>
+            <td> &nbsp; &nbsp; Kode Pendaftaran</td>
+            <td>:</td>
+            <td><?php echo $p->id_pendaftaran ?></td>
+        </tr>
+            <tr>
+            <td> &nbsp; &nbsp; Tahun Ajaran</td>
+            <td>:</td>
+            <td><?php echo $p->th_ajaran ?></td>
+        </tr>    <tr>
+            <td> &nbsp; &nbsp; Kode Pendaftaran</td>
+            <td>:</td>
+            <td><?php echo $p->jurusan ?></td>
+        </tr>    <tr>
+            <td> &nbsp; &nbsp; Nama Lengkap</td>
+            <td>:</td>
+            <td><?php echo $p->nm_peserta ?></td>
+        </tr>    <tr>
+            <td> &nbsp; &nbsp; Tempat, Tanggal Lahir</td>
+            <td>:</td>
+            <td><?php echo $p->tmp_lahir. ', '.$p->tgl_lahir ?></td>
+        </tr>    <tr>
+            <td> &nbsp; &nbsp; Jenis Kelamin</td>
+            <td>:</td>
+            <td><?php echo $p->jk ?></td>
+        </tr>
+        <tr>
+            <td> &nbsp; &nbsp; Agama</td>
+            <td>:</td>
+            <td><?php echo $p->agama ?></td>
+        </tr><tr>
+            <td> &nbsp; &nbsp; Alamat</td>
+            <td>:</td>
+            <td><?php echo $p->almt_peserta ?></td>
+        </tr>
+    </table>
 </body>
 </html>
