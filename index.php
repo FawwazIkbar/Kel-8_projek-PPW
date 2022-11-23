@@ -19,7 +19,7 @@
     
     <div class="container">
 
-        <img src="logoPSB.png" alt="logoPNB" width="180">
+        <img src="./logo/logoPSB.png" alt="logoPNB" width="180">
 
         <h1 class="t-color"><CENTER>SELAMAT DATANG DI PENERIMAAN SISWA BARU ONLINE</CENTER></h1>
 
