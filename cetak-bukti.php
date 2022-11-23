@@ -38,7 +38,7 @@
             <td>:</td>
             <td><?php echo $p->th_ajaran ?></td>
         </tr>    <tr>
-            <td> &nbsp; &nbsp; Kode Pendaftaran</td>
+            <td> &nbsp; &nbsp; Jurusan</td>
             <td>:</td>
             <td><?php echo $p->jurusan ?></td>
         </tr>    <tr>
