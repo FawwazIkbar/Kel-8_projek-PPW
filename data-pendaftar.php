@@ -39,6 +39,7 @@
                         <th>No</th>
                         <th>ID Pendaftaran</th>
                         <th>Nama</th>
+                        <th>Tanggal Daftar</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -51,6 +52,7 @@
                         <td><?php echo $no++ ?></td>
                         <td><?php echo $row['id_pendaftaran'] ?></td>
                         <td><?php echo $row['nm_peserta'] ?></td>
+                        <td><?php echo $row['tgl_daftar'] ?></td>
                         <td>
                             <a href="detail-pendaftar.php?id=<?php echo $row['id_pendaftaran']?>">Detail</a> ||
                             <a href="hapus-pendaftar.php?id=<?php echo $row['id_pendaftaran'] ?>" onclick="return confirm('apakah anda yakin menghapusnya?')" >Hapus</a>
