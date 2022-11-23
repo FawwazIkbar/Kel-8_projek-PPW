@@ -45,7 +45,7 @@
         <td>:</td>
         <td><?php echo $p->th_ajaran ?></td>
     </tr>    <tr>
-        <td>Kode Pendaftaran</td>
+        <td>Jurusan</td>
         <td>:</td>
         <td><?php echo $p->jurusan ?></td>
     </tr>    <tr>
