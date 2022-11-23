@@ -40,6 +40,11 @@
         <td>:</td>
         <td><?php echo $p->id_pendaftaran ?></td>
     </tr>
+      <tr>
+        <td>Tanggal Daftar</td>
+        <td>:</td>
+        <td><?php echo $p->tgl_daftar ?></td>
+    </tr>
         <tr>
         <td>Tahun Ajaran</td>
         <td>:</td>
