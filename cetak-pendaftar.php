@@ -26,6 +26,7 @@
                         <tr>
                         <th>No</th>
                         <th>ID Pendaftaran</th>
+                        <th>Tanggal Daftar</th>
                         <th>Tahun Ajaran</th>
                         <th>Jurusan</th>
                         <th>Nama</th>
@@ -44,6 +45,7 @@
                         <tr>
                         <td><?php echo $no++ ?></td>
                         <td><?php echo $row['id_pendaftaran'] ?></td>
+                        <td><?php echo $row['tgl_daftar'] ?></td>
                         <td><?php echo $row['th_ajaran'] ?></td>
                         <td><?php echo $row['jurusan'] ?></td>
                         <td><?php echo $row['nm_peserta'] ?></td>
